@@ -1,0 +1,24 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+
+{
+	int x;
+	cout << "Wrait your grade: " << endl;
+	cin >> x;
+
+	if ( x >=0 && x <= 59)
+		cout << "fail." << endl;
+	if (x >= 60 && x <= 70)
+		cout << "good." << endl;
+	if (x >= 71 && x <= 89)
+		cout << "very  good." << endl;
+	if (x >= 90 && x <= 100)
+		cout << "excellent." << endl;
+
+	system("pause");
+	return 0;
+}
